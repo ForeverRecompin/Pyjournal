@@ -44,6 +44,7 @@ def add_entry():
     print('Enter your entry. Press ctrl+d when done.')
     print('='*formatting_var_len)
     data = sys.stdin.read().strip()
+    print('\n')
 
     if data:
         if input('Save entry? [Y/n]: ').lower() != 'n':
